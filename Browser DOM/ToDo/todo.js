@@ -9,6 +9,10 @@ input.addEventListener("keydown" ,function(e){
         let li = document.createElement('li');
         li.innerText=task;
         ul.appendChild(li)
+
+        li.addEventListener("dblclick" , function(){
+            li.remove()
+        })
         input.value = "";
         
        
