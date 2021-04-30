@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button{
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            border:2px solid black;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+
+}
+
+.blue{
+    background-color: blue;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
